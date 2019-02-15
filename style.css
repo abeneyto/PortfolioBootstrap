@@ -38,19 +38,48 @@ h2{
   padding: 3%;
   padding-left: 10%;
   padding-right: 10%;
-  border: solid 2px white;
+  font-weight: lighter;
 }
 .triangle{
   padding: 0;
   background-image: url(imagenes/triangle.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  height: 100%;
 
 }
 #logo{
   position: absolute;
-  left: 17%;
-  bottom: 78%;
-padding: 0;
-width: 20%;
+  top: 10%;
+  width: 23%;
+  left: 23%;
 }
+#nombre{
+  font-size: 30pt;
+  font-weight: bold;
+
+}
+@media (max-width: 575px){
+  #logo{
+  }
+}
+
+
+@media (min-width: 576px){
+
+  #logo{
+  }
+}
+
+
+@media (min-width: 768px) {
+  #logo{
+    width: 21%;
+  }
+ }
+
+@media (min-width: 992px) {
+  #logo{
+    width: 21%;
+  }
+ }
