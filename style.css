@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
 * {
 text-align: center;
 font-weight: lighter;
@@ -50,24 +52,63 @@ h2{
 }
 #logo{
   position: absolute;
-  top: 10%;
+  top: 11.5%;
   width: 23%;
   left: 23%;
 }
 #nombre{
   font-size: 30pt;
   font-weight: bold;
+  padding: 0%;
 
 }
+#subnombre{
+  font-size: 30pt;
+  padding: 0;
+}
+.presentacion{
+  z-index: 1;
+  position: relative;
+  bottom: 40%;
+}
+
+/* -----------------------------------MEDIA QUERYS----------------------------*/
 @media (max-width: 575px){
-  #logo{
+  .presentacion{
+    z-index: 1;
+    position: relative;
+    bottom: 37%;
+    left: 40%;
+  }
+
+  #nombre{
+    display: inline;
+    font-size: 40pt;
+    font-weight: lighter;
+
+    padding: 1%;
+    font-family: 'Black Han Sans', sans-serif;
+  }
+  #subnombre{
+        border-top: solid white 1px;
+    margin-top: 4%;
+    font-size: 15pt;
+    padding: 1%;
   }
 }
 
 
 @media (min-width: 576px){
 
-  #logo{
+  #nombre{
+    font-size: 30pt;
+    font-weight: bold;
+    padding: 0;
+
+  }
+  #subnombre{
+    font-size: 20pt;
+    padding: 0;
   }
 }
 
@@ -76,10 +117,31 @@ h2{
   #logo{
     width: 21%;
   }
+  #nombre{
+    font-size: 30pt;
+    font-weight: bold;
+    padding: 0;
+
+  }
+  #subnombre{
+    font-size: 20pt;
+    padding: 0;
+  }
  }
 
 @media (min-width: 992px) {
   #logo{
+        top: 13%;
     width: 21%;
+  }
+  #nombre{
+    font-size: 30pt;
+    font-weight: bold;
+    padding: 0;
+
+  }
+  #subnombre{
+    font-size: 20pt;
+    padding: 0;
   }
  }
