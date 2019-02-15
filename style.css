@@ -66,49 +66,52 @@ h2{
   font-size: 30pt;
   padding: 0;
 }
-.presentacion{
-  z-index: 1;
-  position: relative;
-  bottom: 40%;
-}
 
 /* -----------------------------------MEDIA QUERYS----------------------------*/
 @media (max-width: 575px){
   .presentacion{
     z-index: 1;
     position: relative;
-    bottom: 37%;
-    left: 40%;
+    bottom: 41%;
+    left: 39%;
   }
 
   #nombre{
     display: inline;
-    font-size: 40pt;
+    font-size: 32pt;
     font-weight: lighter;
-
     padding: 1%;
     font-family: 'Black Han Sans', sans-serif;
   }
   #subnombre{
-        border-top: solid white 1px;
+    border-top: solid white 1px;
     margin-top: 4%;
-    font-size: 15pt;
+    font-size: 14pt;
     padding: 1%;
   }
 }
 
 
 @media (min-width: 576px){
-
+  .presentacion{
+    z-index: 1;
+    position: absolute;
+    width: 34%;
+    top: 50%;
+    left: 60%;
+  }
   #nombre{
-    font-size: 30pt;
-    font-weight: bold;
-    padding: 0;
-
+    display: inline;
+    font-size: 38pt;
+    font-weight: lighter;
+    padding: 1%;
+    font-family: 'Black Han Sans', sans-serif;
   }
   #subnombre{
-    font-size: 20pt;
-    padding: 0;
+    border-top: solid white 1px;
+    margin-top: 4%;
+    font-size: 16pt;
+    padding: 1%;
   }
 }
 
@@ -117,31 +120,51 @@ h2{
   #logo{
     width: 21%;
   }
+  .presentacion{
+    z-index: 1;
+    position: absolute;
+    width: 38%;
+    top: 50%;
+    left: 60%;
+  }
   #nombre{
-    font-size: 30pt;
-    font-weight: bold;
-    padding: 0;
-
+    display: inline;
+    font-size: 42pt;
+    font-weight: lighter;
+    padding: 1%;
+    font-family: 'Black Han Sans', sans-serif;
   }
   #subnombre{
-    font-size: 20pt;
-    padding: 0;
+    border-top: solid white 1px;
+    margin-top: 4%;
+    font-size: 19pt;
+    padding: 1%;
   }
  }
 
 @media (min-width: 992px) {
   #logo{
-        top: 13%;
+    top: 13%;
     width: 21%;
   }
+  .presentacion{
+    z-index: 1;
+    position: absolute;
+    width: 34%;
+    top: 33%;
+    left: 60%;
+  }
   #nombre{
-    font-size: 30pt;
-    font-weight: bold;
-    padding: 0;
-
+    display: inline;
+    font-size: 56pt;
+    font-weight: lighter;
+    padding: 0%;
+    font-family: 'Black Han Sans', sans-serif;
   }
   #subnombre{
+    border-top: solid white 1px;
+    margin-top: 4%;
     font-size: 20pt;
-    padding: 0;
+    padding: 4%;
   }
  }
