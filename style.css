@@ -82,6 +82,47 @@ h2{
   padding: 0px;
   padding-bottom: 10px;
 }
+.row1{
+  padding-top: 5%;
+  background-image: url(imagenes/fondo1.jpg);
+  background-size: cover;
+}
+.colt{
+
+}
+.coltipo1{
+	background-image: url(imagenes/1.jpg);
+	font-weight: lighter;
+}
+.coltipo2{
+	background-image: url(imagenes/2.jpg);
+}
+.coltipo3{
+	background-image: url(imagenes/3.jpg);
+}
+.coltipo4{
+	background-image: url(imagenes/4.jpg);
+}
+.coltipo5{
+	background-image: url(imagenes/5.jpg);
+}
+.coltipo6{
+	background-image: url(imagenes/6.jpg);
+	height: 480px;
+}
+.colImg{
+	color: white;
+height: 400px;
+background-size: cover;
+overflow: hidden;
+}
+.titleImages{
+	margin-bottom: 3%;
+}
+.colImg:hover{
+filter: saturate(180%);
+box-shadow: inset 0 0 0 1000px rgba(96, 159, 0, 0.5);
+}
 /* -----------------------------------MEDIA QUERYS----------------------------*/
 @media (max-width: 575px){
   .presentacion{
